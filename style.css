@@ -1,0 +1,204 @@
+ html{ 
+    scroll-behavior: smooth;
+ }
+ body { margin:0;
+}
+nav {
+    background-color:black;
+    color: orange;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a {
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.menu a :hover {
+    color : #f5b700;
+}
+
+
+   .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('hero.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 60px 20px 100px 20px;
+    text-align: center;
+}
+.hero-content{ 
+   text-align: center;
+
+
+}
+
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    max-width: 600px;
+}
+.hero p {
+    font-size: 18px;
+    color: #dddddd;
+    max-width: 500px;
+}
+.btn {
+    background-color: #f5b700;
+    color: black;
+    padding: 15px 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+    align-self: flex-start;
+}
+.btn:hover {
+    background-color: #d49e00;
+}
+
+.hizmetler {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.hizmetler h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.hizmet-kartlari {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+    .kart {
+    background-color: #ffffff;
+    border-radius: 12px;      /* Kutunun köşelerini yuvarlar */
+    overflow: hidden;          /* Resmin kutu dışına taşmasını engeller */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Hafif gölge */
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+.kart img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.kart h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f5b700;
+    margin-top: 15px;
+}
+.kart h3, .kart p {
+    padding: 0 15px;
+} 
+/* HAKKIMIZDA BÖLÜMÜ */
+.hakkimizda {
+    padding: 60px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hakkimizda h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.hakkimizda p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* YAPI MALZEMELERİ BÖLÜMÜ */
+.malzemeler {
+    padding: 60px 20px;
+    background-color: #f1f3f5;
+    text-align: center;
+}
+
+.malzemeler h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.malzeme-listesi {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.malzeme-listesi li {
+    background: #ffffff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    font-weight: bold;
+    color: #333;
+    border-left: 4px solid #f5b700;
+}
+
+/* İLETİŞİM & FOOTER BÖLÜMÜ */
+footer {
+    background-color: #1e2125;
+    color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-icerik h3 {
+    font-size: 24px;
+    color: #f5b700;
+    margin-bottom: 10px;
+}
+
+.iletisim-bilgi {
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.iletisim-bilgi p {
+    margin: 8px 0;
+}
+
+.btn-ara {
+    display: inline-block;
+    background-color: #f5b700;
+    color: #111;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 0 30px 0;
+}
+
+.telif {
+    background-color: #141619;
+    padding: 15px 0;
+    font-size: 13px;
+    color: #888;
+}
